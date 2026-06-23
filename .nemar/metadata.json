@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Effect of obesity on arithmetic processing in preteens with high and low math skills. An event-related potentials study",
-  "description": "This EEG dataset comprises electrophysiological recordings from 62 obese and non-obese preteens performing a delayed-verification arithmetic task. The study investigates the effect of obesity on neural processing of mathematical cognition in children with varying math proficiency levels using 128-channel high-density electroencephalography. Raw event-related potential data were acquired without preprocessing to enable flexible analysis approaches.",
-  "methods_description": "EEG data were acquired using a Geodesic Net Amps 300 system with 128-channel Geodesic Hydrocell Sensor Net (Magstim EGI, Eugene OR, USA) running Netstation 4.5.2 software. Stimuli were presented using E-Prime software (Version 2) during a delayed-verification math task at the Arkansas Children Nutrition Center. Participant characteristics including age, gender, body mass index (BMI), and task performance are documented in the Participants.tsv file.",
+  "description": "This EEG dataset comprises electrophysiological recordings from 62 obese and non-obese preteens performing a delayed-verification arithmetic task. The study investigates the effect of obesity on neural processing of mathematical cognition in children with varying math proficiency levels using 128-channel high-density electroencephalography. Event-related potentials were recorded to examine differences in brain activity during arithmetic processing between groups.",
+  "methods_description": "EEG data were acquired using a Geodesic Net Amps 300 system with 128-channel Geodesic Hydrocell Sensor Net at 250 Hz sampling rate running Netstation 4.5.2 software. Stimuli were presented using E-Prime software (Version 2) in a delayed-verification math task paradigm. Participant characteristics including age, gender, body mass index (BMI), and task performance were recorded.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -19,22 +19,13 @@
       "term": "EEG"
     },
     {
-      "term": "Event-Related Potentials",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
-    },
-    {
-      "term": "P300"
+      "term": "event-related potentials"
     },
     {
       "term": "arithmetic processing"
     },
     {
-      "term": "obesity",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D009765"
+      "term": "obesity"
     },
     {
       "term": "mathematical cognition"
@@ -43,19 +34,25 @@
       "term": "children"
     },
     {
-      "term": "cognition",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D003071"
+      "term": "cognitive neuroscience"
     },
     {
       "term": "delayed-verification task"
     },
     {
+      "term": "high-density EEG"
+    },
+    {
+      "term": "pediatric neuroscience"
+    },
+    {
       "term": "body mass index"
     },
     {
-      "term": "math proficiency"
+      "term": "preteen"
+    },
+    {
+      "term": "child development"
     }
   ],
   "related_identifiers": [
