@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Effect of obesity on arithmetic processing in preteens with high and low math skills. An event-related potentials study",
+  "description": "This EEG dataset comprises electrophysiological recordings from 62 obese and non-obese preteens performing a delayed-verification arithmetic task. The study investigates the effect of obesity on neural processing of mathematical cognition in children with varying math proficiency levels using 128-channel high-density electroencephalography. Raw event-related potential data were acquired without preprocessing to enable flexible analysis approaches.",
+  "methods_description": "EEG data were acquired using a Geodesic Net Amps 300 system with 128-channel Geodesic Hydrocell Sensor Net (Magstim EGI, Eugene OR, USA) running Netstation 4.5.2 software. Stimuli were presented using E-Prime software (Version 2) during a delayed-verification math task at the Arkansas Children Nutrition Center. Participant characteristics including age, gender, body mass index (BMI), and task performance are documented in the Participants.tsv file.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -12,12 +14,51 @@
     "D. Keith Williams": {},
     "Linda Larson-Prior": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004019.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "Event-Related Potentials",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
+    },
+    {
+      "term": "P300"
+    },
+    {
+      "term": "arithmetic processing"
+    },
+    {
+      "term": "obesity",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D009765"
+    },
+    {
+      "term": "mathematical cognition"
+    },
+    {
+      "term": "children"
+    },
+    {
+      "term": "cognition",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D003071"
+    },
+    {
+      "term": "delayed-verification task"
+    },
+    {
+      "term": "body mass index"
+    },
+    {
+      "term": "math proficiency"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004019",
       "identifier_type": "URL",
@@ -32,20 +73,25 @@
       "identifier": "10.3389/fnhum.2022.XXXXX",
       "identifier_type": "DOI",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004019.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
     {
-      "funder_name": "USDA Agricultural Research Service",
+      "funder_name": "USDA/Agricultural Research Service",
       "award_number": "6026-51000-012-06S"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "18.5 GB (65 files)"
   ],
   "formats": [
     ".es2",
@@ -53,56 +99,8 @@
     ".json",
     ".md",
     ".set",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "This EEG dataset comprises electrophysiological recordings from 62 obese and non-obese preteens performing a delayed-verification arithmetic task. The study investigates the effect of obesity on neural correlates of math processing in children with varying mathematical abilities using event-related potentials. Data were acquired using a 128-channel Geodesic Hydrocell Sensor Net system.",
-  "methods_description": "EEG data were acquired using a Geodesic Net Amps 300 system with 128-channel Geodesic Hydrocell Sensor Net (Magstim EGI, Eugene OR, USA) running Netstation 4.5.2 software. Stimuli were designed and administered using E-Prime software (Version 2) at the Arkansas Children Nutrition Center. Participant data include age, gender, body mass index (BMI), and task performance.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "Event-Related Potentials, P300",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
-    },
-    {
-      "term": "arithmetic processing"
-    },
-    {
-      "term": "Obesity",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D009765"
-    },
-    {
-      "term": "children"
-    },
-    {
-      "term": "mathematical cognition"
-    },
-    {
-      "term": "Cognition",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D003071"
-    },
-    {
-      "term": "Child Development",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D002657"
-    },
-    {
-      "term": "delayed-verification task"
-    },
-    {
-      "term": "preteens"
-    },
-    {
-      "term": "math cognition task"
-    }
-  ],
-  "source_hash": "ee67c3b5621a6a9a20963ab8739389396d2ad1223390217bbc0df0e7f7b00095"
+  "source_hash": "43efecef944aaa26d1ffbef52caed7e15792675796bb6040ae5e4e88ca677ad9"
 }
